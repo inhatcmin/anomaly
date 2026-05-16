@@ -13,7 +13,7 @@ from sklearn.neighbors import NearestNeighbors
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print("device:", device)
 
-data_root = "./mvtec_anomaly_detection"
+data_root = "./mvtec"
 category = "bottle"
 
 batch_size = 32
