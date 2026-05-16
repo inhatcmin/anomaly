@@ -18,7 +18,7 @@ category = "bottle"
 
 img_size = 128
 batch_size = 32
-epochs = 5
+epochs = 10
 
 save_dir = "./results_autoencoder"
 os.makedirs(save_dir, exist_ok=True)
